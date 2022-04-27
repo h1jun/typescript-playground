@@ -4,6 +4,7 @@ import { Products } from "./features/products/Products";
 import { CartLink } from "./features/cart/CartLink";
 import { Cart } from "./features/cart/Cart";
 import styles from "./App.module.css";
+import Home from "./components/Home/index";
 
 function App() {
   return (
@@ -31,15 +32,3 @@ function App() {
 }
 
 export default App;
-
-function Home() {
-  return (
-    <main className="page">
-      <h1>Welcome to the Store</h1>
-      <figure>
-        <img src="/store.jpg" alt="A large old storefront" width="800" />
-        <figcaption>Gary Houston, CC0, via Wikimedia Commons</figcaption>
-      </figure>
-    </main>
-  );
-}
